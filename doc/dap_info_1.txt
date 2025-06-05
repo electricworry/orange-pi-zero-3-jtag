@@ -1,0 +1,445 @@
+Open On-Chip Debugger
+> dap info
+AP # 0x0
+		AP ID register 0x64770001
+		Type is MEM-AP AHB3
+MEM-AP BASE 0xffffffff
+		No ROM table present
+> dap info 0
+AP # 0x0
+		AP ID register 0x64770001
+		Type is MEM-AP AHB3
+MEM-AP BASE 0xffffffff
+		No ROM table present
+> dap info 1
+AP # 0x1
+		AP ID register 0x44770002
+		Type is MEM-AP APB2 or APB3
+MEM-AP BASE 0x80000000
+		ROM table in legacy format
+		Component base address 0x80000000
+		Peripheral ID 0x0800a9c163
+		Designer is 0x41c, eveRAM Technology Inc
+		Part is 0x163, Unrecognized 
+		Component class is 0x1, ROM table
+		MEMTYPE system memory not present: dedicated debug bus
+	ROMTABLE[0x0] = 0x00050003
+		Component base address 0x80050000
+		Peripheral ID 0x04004bb906
+		Designer is 0x23b, ARM Ltd
+		Part is 0x906, CoreSight CTI (Cross Trigger)
+		Component class is 0x9, CoreSight component
+		Type is 0x14, Debug Control, Trigger Matrix
+	ROMTABLE[0x4] = 0x01000003
+		Component base address 0x81000000
+		Peripheral ID 0x0800a9cc64
+		Designer is 0x41c, eveRAM Technology Inc
+		Part is 0xc64, Unrecognized 
+		Component class is 0x1, ROM table
+		MEMTYPE system memory not present: dedicated debug bus
+	[L01] ROMTABLE[0x0] = 0x00010003
+		Component base address 0x81010000
+		Invalid CID 0x00000000
+	[L01] ROMTABLE[0x4] = 0x00020003
+		Component base address 0x81020000
+		Invalid CID 0x00000000
+	[L01] ROMTABLE[0x8] = 0x00400003
+		Component base address 0x81400000
+		Peripheral ID 0x04004bb4a1
+		Designer is 0x23b, ARM Ltd
+		Part is 0x4a1, Cortex-A53 ROM (v8 Memory Map ROM Table)
+		Component class is 0x1, ROM table
+		MEMTYPE system memory not present: dedicated debug bus
+	[L02] ROMTABLE[0x0] = 0x00010003
+		Component base address 0x81410000
+		Peripheral ID 0x04004bbd03
+		Designer is 0x23b, ARM Ltd
+		Part is 0xd03, Cortex-A53 Debug (Debug Unit)
+		Component class is 0x9, CoreSight component
+		Type is 0x15, Debug Logic, Processor
+		Dev Arch is 0x47706a15, ARM Ltd "Processor debug architecture (v8.0-A)" rev.0
+	[L02] ROMTABLE[0x4] = 0x00020003
+		Component base address 0x81420000
+		Peripheral ID 0x04004bb9a8
+		Designer is 0x23b, ARM Ltd
+		Part is 0x9a8, Cortex-A53 CTI (Cross Trigger)
+		Component class is 0x9, CoreSight component
+		Type is 0x14, Debug Control, Trigger Matrix
+		Dev Arch is 0x47701a14, ARM Ltd "Cross Trigger Interface (CTI) architecture" rev.0
+	[L02] ROMTABLE[0x8] = 0x00030003
+		Component base address 0x81430000
+		Peripheral ID 0x04004bb9d3
+		Designer is 0x23b, ARM Ltd
+		Part is 0x9d3, Cortex-A53 PMU (Performance Monitor Unit)
+		Component class is 0x9, CoreSight component
+		Type is 0x16, Performance Monitor, Processor
+		Dev Arch is 0x47702a16, ARM Ltd "Processor Performance Monitor (PMU) architecture" rev.0
+	[L02] ROMTABLE[0xc] = 0x00040003
+		Component base address 0x81440000
+		Peripheral ID 0x04004bb95d
+		Designer is 0x23b, ARM Ltd
+		Part is 0x95d, Cortex-A53 ETM (Embedded Trace)
+		Component class is 0x9, CoreSight component
+		Type is 0x13, Trace Source, Processor
+		Dev Arch is 0x47704a13, ARM Ltd "Embedded Trace Macrocell (ETM) architecture" rev.0
+	[L02] ROMTABLE[0x10] = 0x00110003
+		Component base address 0x81510000
+		Peripheral ID 0x04004bbd03
+		Designer is 0x23b, ARM Ltd
+		Part is 0xd03, Cortex-A53 Debug (Debug Unit)
+		Component class is 0x9, CoreSight component
+		Type is 0x15, Debug Logic, Processor
+		Dev Arch is 0x47706a15, ARM Ltd "Processor debug architecture (v8.0-A)" rev.0
+	[L02] ROMTABLE[0x14] = 0x00120003
+		Component base address 0x81520000
+		Peripheral ID 0x04004bb9a8
+		Designer is 0x23b, ARM Ltd
+		Part is 0x9a8, Cortex-A53 CTI (Cross Trigger)
+		Component class is 0x9, CoreSight component
+		Type is 0x14, Debug Control, Trigger Matrix
+		Dev Arch is 0x47701a14, ARM Ltd "Cross Trigger Interface (CTI) architecture" rev.0
+	[L02] ROMTABLE[0x18] = 0x00130003
+		Component base address 0x81530000
+		Peripheral ID 0x04004bb9d3
+		Designer is 0x23b, ARM Ltd
+		Part is 0x9d3, Cortex-A53 PMU (Performance Monitor Unit)
+		Component class is 0x9, CoreSight component
+		Type is 0x16, Performance Monitor, Processor
+		Dev Arch is 0x47702a16, ARM Ltd "Processor Performance Monitor (PMU) architecture" rev.0
+	[L02] ROMTABLE[0x1c] = 0x00140003
+		Component base address 0x81540000
+		Peripheral ID 0x04004bb95d
+		Designer is 0x23b, ARM Ltd
+		Part is 0x95d, Cortex-A53 ETM (Embedded Trace)
+		Component class is 0x9, CoreSight component
+		Type is 0x13, Trace Source, Processor
+		Dev Arch is 0x47704a13, ARM Ltd "Embedded Trace Macrocell (ETM) architecture" rev.0
+	[L02] ROMTABLE[0x20] = 0x00210003
+		Component base address 0x81610000
+		Peripheral ID 0x04004bbd03
+		Designer is 0x23b, ARM Ltd
+		Part is 0xd03, Cortex-A53 Debug (Debug Unit)
+		Component class is 0x9, CoreSight component
+		Type is 0x15, Debug Logic, Processor
+		Dev Arch is 0x47706a15, ARM Ltd "Processor debug architecture (v8.0-A)" rev.0
+	[L02] ROMTABLE[0x24] = 0x00220003
+		Component base address 0x81620000
+		Peripheral ID 0x04004bb9a8
+		Designer is 0x23b, ARM Ltd
+		Part is 0x9a8, Cortex-A53 CTI (Cross Trigger)
+		Component class is 0x9, CoreSight component
+		Type is 0x14, Debug Control, Trigger Matrix
+		Dev Arch is 0x47701a14, ARM Ltd "Cross Trigger Interface (CTI) architecture" rev.0
+	[L02] ROMTABLE[0x28] = 0x00230003
+		Component base address 0x81630000
+		Peripheral ID 0x04004bb9d3
+		Designer is 0x23b, ARM Ltd
+		Part is 0x9d3, Cortex-A53 PMU (Performance Monitor Unit)
+		Component class is 0x9, CoreSight component
+		Type is 0x16, Performance Monitor, Processor
+		Dev Arch is 0x47702a16, ARM Ltd "Processor Performance Monitor (PMU) architecture" rev.0
+	[L02] ROMTABLE[0x2c] = 0x00240003
+		Component base address 0x81640000
+		Peripheral ID 0x04004bb95d
+		Designer is 0x23b, ARM Ltd
+		Part is 0x95d, Cortex-A53 ETM (Embedded Trace)
+		Component class is 0x9, CoreSight component
+		Type is 0x13, Trace Source, Processor
+		Dev Arch is 0x47704a13, ARM Ltd "Embedded Trace Macrocell (ETM) architecture" rev.0
+	[L02] ROMTABLE[0x30] = 0x00310003
+		Component base address 0x81710000
+		Peripheral ID 0x04004bbd03
+		Designer is 0x23b, ARM Ltd
+		Part is 0xd03, Cortex-A53 Debug (Debug Unit)
+		Component class is 0x9, CoreSight component
+		Type is 0x15, Debug Logic, Processor
+		Dev Arch is 0x47706a15, ARM Ltd "Processor debug architecture (v8.0-A)" rev.0
+	[L02] ROMTABLE[0x34] = 0x00320003
+		Component base address 0x81720000
+		Peripheral ID 0x04004bb9a8
+		Designer is 0x23b, ARM Ltd
+		Part is 0x9a8, Cortex-A53 CTI (Cross Trigger)
+		Component class is 0x9, CoreSight component
+		Type is 0x14, Debug Control, Trigger Matrix
+		Dev Arch is 0x47701a14, ARM Ltd "Cross Trigger Interface (CTI) architecture" rev.0
+	[L02] ROMTABLE[0x38] = 0x00330003
+		Component base address 0x81730000
+		Peripheral ID 0x04004bb9d3
+		Designer is 0x23b, ARM Ltd
+		Part is 0x9d3, Cortex-A53 PMU (Performance Monitor Unit)
+		Component class is 0x9, CoreSight component
+		Type is 0x16, Performance Monitor, Processor
+		Dev Arch is 0x47702a16, ARM Ltd "Processor Performance Monitor (PMU) architecture" rev.0
+	[L02] ROMTABLE[0x3c] = 0x00340003
+		Component base address 0x81740000
+		Peripheral ID 0x04004bb95d
+		Designer is 0x23b, ARM Ltd
+		Part is 0x95d, Cortex-A53 ETM (Embedded Trace)
+		Component class is 0x9, CoreSight component
+		Type is 0x13, Trace Source, Processor
+		Dev Arch is 0x47704a13, ARM Ltd "Embedded Trace Macrocell (ETM) architecture" rev.0
+	[L02] ROMTABLE[0x40] = 0x00000000
+	[L02] 	End of ROM table
+	[L01] ROMTABLE[0xc] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x10] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x14] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x18] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x1c] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x20] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x24] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x28] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x2c] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x30] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x34] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x38] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x3c] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x40] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x44] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x48] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x4c] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x50] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x54] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x58] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x5c] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x60] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x64] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x68] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x6c] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x70] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x74] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x78] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x7c] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x80] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x84] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x88] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x8c] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x90] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x94] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x98] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x9c] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xa0] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xa4] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xa8] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xac] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xb0] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xb4] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xb8] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xbc] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xc0] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xc4] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xc8] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xcc] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xd0] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xd4] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xd8] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xdc] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xe0] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xe4] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xe8] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xec] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xf0] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xf4] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xf8] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0xfc] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x100] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x104] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x108] = 0x00000010
+		Component not present
+	[L01] ROMTABLE[0x10c] = 0x00000000
+	[L01] 	End of ROM table
+	ROMTABLE[0x8] = 0x01800003
+		Component base address 0x81800000
+		Invalid CID 0xefefefef
+	ROMTABLE[0xc] = 0x00000010
+		Component not present
+	ROMTABLE[0x10] = 0x00000010
+		Component not present
+	ROMTABLE[0x14] = 0x00000010
+		Component not present
+	ROMTABLE[0x18] = 0x00000010
+		Component not present
+	ROMTABLE[0x1c] = 0x00000010
+		Component not present
+	ROMTABLE[0x20] = 0x00000010
+		Component not present
+	ROMTABLE[0x24] = 0x00000010
+		Component not present
+	ROMTABLE[0x28] = 0x00000010
+		Component not present
+	ROMTABLE[0x2c] = 0x00000010
+		Component not present
+	ROMTABLE[0x30] = 0x00000010
+		Component not present
+	ROMTABLE[0x34] = 0x00000010
+		Component not present
+	ROMTABLE[0x38] = 0x00000010
+		Component not present
+	ROMTABLE[0x3c] = 0x00000010
+		Component not present
+	ROMTABLE[0x40] = 0x00000010
+		Component not present
+	ROMTABLE[0x44] = 0x00000010
+		Component not present
+	ROMTABLE[0x48] = 0x00000010
+		Component not present
+	ROMTABLE[0x4c] = 0x00000010
+		Component not present
+	ROMTABLE[0x50] = 0x00000010
+		Component not present
+	ROMTABLE[0x54] = 0x00000010
+		Component not present
+	ROMTABLE[0x58] = 0x00000010
+		Component not present
+	ROMTABLE[0x5c] = 0x00000010
+		Component not present
+	ROMTABLE[0x60] = 0x00000010
+		Component not present
+	ROMTABLE[0x64] = 0x00000010
+		Component not present
+	ROMTABLE[0x68] = 0x00000010
+		Component not present
+	ROMTABLE[0x6c] = 0x00000010
+		Component not present
+	ROMTABLE[0x70] = 0x00000010
+		Component not present
+	ROMTABLE[0x74] = 0x00000010
+		Component not present
+	ROMTABLE[0x78] = 0x00000010
+		Component not present
+	ROMTABLE[0x7c] = 0x00000010
+		Component not present
+	ROMTABLE[0x80] = 0x00000010
+		Component not present
+	ROMTABLE[0x84] = 0x00000010
+		Component not present
+	ROMTABLE[0x88] = 0x00000010
+		Component not present
+	ROMTABLE[0x8c] = 0x00000010
+		Component not present
+	ROMTABLE[0x90] = 0x00000010
+		Component not present
+	ROMTABLE[0x94] = 0x00000010
+		Component not present
+	ROMTABLE[0x98] = 0x00000010
+		Component not present
+	ROMTABLE[0x9c] = 0x00000010
+		Component not present
+	ROMTABLE[0xa0] = 0x00000010
+		Component not present
+	ROMTABLE[0xa4] = 0x00000010
+		Component not present
+	ROMTABLE[0xa8] = 0x00000010
+		Component not present
+	ROMTABLE[0xac] = 0x00000010
+		Component not present
+	ROMTABLE[0xb0] = 0x00000010
+		Component not present
+	ROMTABLE[0xb4] = 0x00000010
+		Component not present
+	ROMTABLE[0xb8] = 0x00000010
+		Component not present
+	ROMTABLE[0xbc] = 0x00000010
+		Component not present
+	ROMTABLE[0xc0] = 0x00000010
+		Component not present
+	ROMTABLE[0xc4] = 0x00000010
+		Component not present
+	ROMTABLE[0xc8] = 0x00000010
+		Component not present
+	ROMTABLE[0xcc] = 0x00000010
+		Component not present
+	ROMTABLE[0xd0] = 0x00000010
+		Component not present
+	ROMTABLE[0xd4] = 0x00000010
+		Component not present
+	ROMTABLE[0xd8] = 0x00000010
+		Component not present
+	ROMTABLE[0xdc] = 0x00000010
+		Component not present
+	ROMTABLE[0xe0] = 0x00000010
+		Component not present
+	ROMTABLE[0xe4] = 0x00000010
+		Component not present
+	ROMTABLE[0xe8] = 0x00000010
+		Component not present
+	ROMTABLE[0xec] = 0x00000010
+		Component not present
+	ROMTABLE[0xf0] = 0x00000010
+		Component not present
+	ROMTABLE[0xf4] = 0x00000010
+		Component not present
+	ROMTABLE[0xf8] = 0x00000010
+		Component not present
+	ROMTABLE[0xfc] = 0x00000010
+		Component not present
+	ROMTABLE[0x100] = 0x00000010
+		Component not present
+	ROMTABLE[0x104] = 0x00000010
+		Component not present
+	ROMTABLE[0x108] = 0x00000010
+		Component not present
+	ROMTABLE[0x10c] = 0x00000000
+		End of ROM table

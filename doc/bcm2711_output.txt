@@ -1,0 +1,43 @@
+Open On-Chip Debugger 0.12.0+dev-01008-g4fe57a0c1 (2025-05-29-12:53)
+Licensed under GNU GPL v2
+For bug reports, read
+        http://openocd.org/doc/doxygen/bugs.html
+Warn : DEPRECATED: auto-selecting transport "jtag". Use 'transport select jtag' to suppress this message.
+Info : Listening on port 6666 for tcl connections
+Info : Listening on port 4444 for telnet connections
+Info : clock speed 4000 kHz
+Info : JTAG tap: bcm2711.cpu tap/device found: 0x5ba00477 (mfg: 0x23b (ARM Ltd), part: 0xba00, ver: 0x5)
+Warn : JTAG tap: bcm2711.cpu       UNEXPECTED: 0x5ba00477 (mfg: 0x23b (ARM Ltd), part: 0xba00, ver: 0x5)
+Error: JTAG tap: bcm2711.cpu  expected 1 of 1: 0x4ba00477 (mfg: 0x23b (ARM Ltd), part: 0xba00, ver: 0x4)
+Error: Trying to use configured scan chain anyway...
+Warn : Bypassing JTAG setup events due to errors
+Info : [bcm2711.ap] Examination succeed
+Info : bcm2711.cpu0: hardware has 16 breakpoints, 16 watchpoints
+Info : [bcm2711.cpu0] external reset detected
+Error: timeout waiting for target
+Error: [bcm2711.cpu0] Examination failed
+Warn : target bcm2711.cpu0 examination failed
+Info : bcm2711.cpu1: hardware has 16 breakpoints, 16 watchpoints
+Info : [bcm2711.cpu1] external reset detected
+Error: timeout waiting for target
+Error: [bcm2711.cpu1] Examination failed
+Warn : target bcm2711.cpu1 examination failed
+Info : bcm2711.cpu2: hardware has 16 breakpoints, 16 watchpoints
+Info : [bcm2711.cpu2] external reset detected
+Error: timeout waiting for target
+Error: [bcm2711.cpu2] Examination failed
+Warn : target bcm2711.cpu2 examination failed
+Info : bcm2711.cpu3: hardware has 16 breakpoints, 16 watchpoints
+Info : [bcm2711.cpu3] external reset detected
+Error: timeout waiting for target
+Error: [bcm2711.cpu3] Examination failed
+Warn : target bcm2711.cpu3 examination failed
+Info : [bcm2711.ap] gdb port disabled
+Info : [bcm2711.cpu0] starting gdb server on 3333
+Info : Listening on port 3333 for gdb connections
+Info : [bcm2711.cpu1] starting gdb server on 3334
+Info : Listening on port 3334 for gdb connections
+Info : [bcm2711.cpu2] starting gdb server on 3335
+Info : Listening on port 3335 for gdb connections
+Info : [bcm2711.cpu3] starting gdb server on 3336
+Info : Listening on port 3336 for gdb connections
